@@ -165,8 +165,20 @@ body {
 }
 
 .bottom-navbar {
+    position: fixed;
+
+    bottom: 0;
+
     width: 100vw;
     height: 160px;
     
     background-color: rgb(160, 0, 50);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom-navbar img {
+    width: 80px;
 }

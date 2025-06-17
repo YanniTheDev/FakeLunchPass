@@ -10,12 +10,13 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
 }
 
 .headshot-clipper {
-    margin-top: 10vh;
+    margin-top: 8vh;
+    margin-bottom: 2vh;
 
     width: 220px;
     height: 220px;
@@ -23,9 +24,149 @@ body {
     overflow: hidden;
 
     border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .headshot {
-    width: 220px;
-    height: 284px;
+    width: 240px;
+    height: 304px;
+}
+
+.name {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+.tag {
+    margin-top: 1vh;
+
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+
+    color: rgb(155, 155, 155);
+}
+
+.tag span {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-color: rgb(155, 155, 155);
+
+    font-size: 20px;
+
+    color: white;
+
+    border-radius: 30px;
+}
+
+.info-stuff {
+    height: 100vh;
+    width: 100vw;
+
+    margin-top: 4.5vh;
+
+    background-color: rgb(242, 242, 242);
+
+    border-top: 0.5px solid rgb(155, 155, 155);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.info-stuff button {
+    padding: 20px 0px 20px 50px;
+
+    width: 90%;
+    height: 100px;
+
+    background-color: white;
+
+    text-align: left;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+
+    border: none;
+    border-radius: 20px;
+}
+
+#set-pin-button {
+    border-radius: 20px 20px 0px 0px;
+
+    position: relative;
+    z-index: 1;
+}
+#set-pin-button::before {
+    content : "";
+    position: absolute;
+    left    : 7.5%;
+    bottom  : 0;
+    height  : 0.5px;
+    width   : 550px;
+    border-bottom: 0.5px solid rgb(155, 155, 155);
+}
+
+#sign-out-button {
+    border-radius: 0px 0px 20px 20px;
+}
+
+.margin-top-button {
+    margin-top: 5vh;
+}
+
+.info-stuff h4 {
+    width: 90%;
+
+    padding-left: 20px;
+
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(155, 155, 155);
+}
+
+#account-button {
+    height: auto;
+
+    margin-top: 1vh;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#account-headshot {
+    width: 100px;
+    height: 144px;
+}
+
+.account-headshot-clipper {
+    width: 100px;
+    height: 100px;
+    
+    overflow: hidden;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-navbar {
+    width: 100vw;
+    height: 160px;
+    
+    background-color: rgb(160, 0, 50);
 }

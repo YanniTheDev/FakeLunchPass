@@ -182,3 +182,121 @@ body {
 .bottom-navbar img {
     width: 80px;
 }
+
+.lunch-pass-overlay {
+    z-index: 2;
+
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lunch-pass-background {
+    height: 62%;
+    width: 90%;
+
+    background-color: rgb(160, 0, 50);
+
+    border-radius: 20px;
+
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lunch-pass-info {
+    padding: 30px;
+
+    height: 648px;
+    width: 992px;
+
+    transform: rotate(90deg);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.nayland-logo {
+    width: 55vw;
+}
+
+.lunch-pass-info h3 {
+    margin-top: 2.1vh;
+
+    color: white;
+
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+.lunch-pass-info h4 {
+    margin-top: 2.1vh;
+
+    color: white;
+
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 3.5vw;
+    font-weight: 250;
+}
+
+.lunch-pass-info h1 {
+    margin-top: 0.2vh;
+
+    color: white;
+
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 7vw;
+    font-weight: 400;
+}
+
+.student-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    gap: 8vw;
+}
+
+.student-info h6 {
+    color: white;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 4.5vw;
+    font-weight: 370;
+}
+
+.lunch-pass-buttons {
+    margin-top: 5vh;
+
+    width: 80%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lunch-pass-buttons button {
+    width: 14vw;
+    height: 14vw;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: rgb(146, 146, 146);
+
+    color: white;
+    font-size: 5vw;
+}

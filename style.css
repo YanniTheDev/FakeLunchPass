@@ -278,6 +278,14 @@ body {
     font-weight: 370;
 }
 
+.lunch-pass-info .barcode {
+    width: 600px;
+    height: 200px;
+
+    margin: 0;
+    padding: 0;
+}
+
 .lunch-pass-buttons {
     margin-top: 5vh;
 

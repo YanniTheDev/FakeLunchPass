@@ -215,13 +215,20 @@ body {
     align-items: center;
 }
 
-.lunch-pass-info {
+.lunch-pass-student-info {
     padding: 30px;
 
     height: 648px;
     width: 992px;
 
     transform: rotate(90deg);
+
+    display: flex;
+}
+
+.lunch-pass-info {
+    height: 648px;
+    width: 740px;
 
     display: flex;
     flex-direction: column;
@@ -286,6 +293,15 @@ body {
 
     width: 325px;
     height: 100px;
+}
+
+.lunch-pass-identification img {
+    padding: 4px;
+
+    width: 240px;
+    height: 340px;
+
+    background-color: white;
 }
 
 .lunch-pass-buttons {

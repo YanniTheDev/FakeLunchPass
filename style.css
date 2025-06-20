@@ -309,4 +309,16 @@ body {
 
     color: white;
     font-size: 36px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lunch-pass-buttons img {
+    width: 45%;
+}
+
+#down-arrow {
+    width: 65%;
 }

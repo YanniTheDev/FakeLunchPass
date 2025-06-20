@@ -227,8 +227,8 @@ body {
 }
 
 .lunch-pass-info {
-    height: 648px;
-    width: 740px;
+    height: 100cw;
+    width: 85ch;
 
     display: flex;
     flex-direction: column;
@@ -295,13 +295,62 @@ body {
     height: 100px;
 }
 
-.lunch-pass-identification img {
+.lunch-pass-identification {
+    height: 100cw;
+    width: 30ch;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.lunch-pass-identification .photo img {
     padding: 4px;
 
     width: 240px;
     height: 340px;
 
     background-color: white;
+}
+
+.lunch-pass-identification .photo h1 {
+    padding: 10px 25px 10px 25px;
+
+    width: 240px;
+
+    text-align: center;
+    color: white;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+    background-color: rgb(135, 0, 43);
+}
+
+.lunch-pass-identification .extra-info {
+    margin-top: 20px;
+
+    width: 240px;
+    height: 580px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.lunch-pass-identification .extra-info img {
+    width: 50px;
+}
+
+.lunch-pass-identification .extra-info h1 {
+    margin-top: 20px;
+
+    text-align: center;
+    color: white;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
 }
 
 .lunch-pass-buttons {
